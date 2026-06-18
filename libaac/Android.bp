@@ -7,9 +7,9 @@ cc_library_shared {
     ],
 
     include_dirs: [
-        "external/aac/libAACenc/include",
-        "external/aac/libAACdec/include",
-        "external/aac/libSYS/include",
+        "external/aac/cpp/libAACenc/include",
+        "external/aac/cpp/libAACdec/include",
+        "external/aac/cpp/libSYS/include",
     ],
 
     shared_libs: ["liblog"],
